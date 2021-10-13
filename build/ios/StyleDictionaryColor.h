@@ -4,68 +4,15 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 17 Sep 2021 10:23:13 GMT
+// Generated on Wed, 13 Oct 2021 15:50:14 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-LightColorsBackground,
-LightColorsBackgroundVariant,
-LightColorsBackgroundHighlight,
-LightColorsUiLowContrast,
-LightColorsUiMediumContrast,
-LightColorsUiNormalContrast,
-LightColorsUiHighContrast,
-LightColorsUiHighlight,
-LightColorsSemanticError,
-LightColorsSemanticSuccess,
-LightColorsSemanticWarning,
-LightColorsOnBackgroundHighEmphasis,
-LightColorsOnBackgroundMediumEmphasis,
-LightColorsOnBackgroundLowEmphasis,
-LightColorsOnBackgroundHighlightHighEmphasis,
-LightColorsOnBackgroundHighlightMediumEmphasis,
-LightColorsOnBackgroundHighlightLowEmphasis,
-LightColorsOnUiHighEmphasis,
-LightColorsOnUiMediumEmphasis,
-LightColorsOnUiLowEmphasis,
-LightColorsOnUiHighlightHighEmphasis,
-LightColorsOnUiHighlightMediumEmphasis,
-LightColorsOnUiHighlightLowEmphasis,
-LightColorsOnAlwaysWhiteHighEmphasis,
-LightColorsOnAlwaysWhiteMediumEmphasis,
-LightColorsOnAlwaysWhiteLowEmphasis,
-LightColorsSpecialAlwaysDarkOverlay,
-LightColorsSpecialAlwaysWhite,
-DarkColorsBackground,
-DarkColorsBackgroundVariant,
-DarkColorsBackgroundHighlight,
-DarkColorsOnAlwaysWhiteHighEmphasis,
-DarkColorsOnAlwaysWhiteMediumEmphasis,
-DarkColorsOnAlwaysWhiteLowEmphasis,
-DarkColorsUiLowContrast,
-DarkColorsUiMediumContrast,
-DarkColorsUiNormalContrast,
-DarkColorsUiHighContrast,
-DarkColorsUiHighlight,
-DarkColorsSemanticError,
-DarkColorsSemanticSuccess,
-DarkColorsSemanticWarning,
-DarkColorsOnBackgroundHighEmphasis,
-DarkColorsOnBackgroundMediumEmphasis,
-DarkColorsOnBackgroundLowEmphasis,
-DarkColorsOnBackgroundHighlightHighEmphasis,
-DarkColorsOnBackgroundHighlightMediumEmphasis,
-DarkColorsOnBackgroundHighlightLowEmphasis,
-DarkColorsOnUiHighEmphasis,
-DarkColorsOnUiMediumEmphasis,
-DarkColorsOnUiLowEmphasis,
-DarkColorsOnUiHighlightHighEmphasis,
-DarkColorsOnUiHighlightMediumEmphasis,
-DarkColorsOnUiHighlightLowEmphasis,
-DarkColorsSpecialAlwaysDarkOverlay,
-DarkColorsSpecialAlwaysWhite
+ColorsBlue50,
+ColorsBlue100,
+ColorsBlue200
 };
 
 @interface StyleDictionaryColor : NSObject
