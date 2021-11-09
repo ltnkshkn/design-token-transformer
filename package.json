@@ -4,16 +4,21 @@
   "description": "Base repo to transform json design tokens from the figma design token plugin via amazon style directory.",
   "main": "index.js",
   "dependencies": {
-    "style-dictionary": "^3"
+    "style-dictionary": "3"
   },
   "devDependencies": {
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.3",
-    "@types/jest": "^26.0.23"
+    "@figma-export/cli": "3.5.0",
+    "@figma-export/output-components-as-svg": "3.5.0",
+    "@figma-export/transform-svg-with-svgo": "3.5.0",
+    "@types/jest": "26.0.23",
+    "dotenv": "10.0.0",
+    "jest": "27.0.6",
+    "ts-jest": "27.0.3"
   },
   "scripts": {
-    "start": "npm run transform-tokens",
-    "transform-tokens": "node ./transformTokens.js",
+    "build": "npm run transform-tokens && npm run export-icons",
+    "transform-tokens": "node ./engine/transformTokens.js",
+    "export-icons": "node ./engine/exportIcons.js",
     "test": "jest tests --coverage=false"
   },
   "repository": {

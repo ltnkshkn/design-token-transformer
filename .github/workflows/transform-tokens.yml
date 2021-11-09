@@ -25,7 +25,7 @@ jobs:
         uses: jsdaniell/create-json@1.1.2
         with:
           # it uses the name from your settings that was send as then tokenFileName parameter
-          name: 'design-tokens-example.json'
+          name: 'src/tokens/design-tokens.json'
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
@@ -38,7 +38,7 @@ jobs:
           node-version: 14.x
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens 
-        run: 'npm i && npm run transform-tokens'
+        run: 'npm i && npm run transform-tokens && npm run export-icons'
       # We now store the changes in the repository
       - name: Persist changes in repository
         uses: mikeal/publish-to-github-action@master

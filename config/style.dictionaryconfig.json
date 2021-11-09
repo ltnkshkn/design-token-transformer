@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/*.json"],
+  "source": ["src/tokens/*.json"],
   "platforms": {
     "scss": {
       "transformGroup": "custom/scss",
@@ -16,9 +16,19 @@
           "filter": "isCategoryColor"
         },
         {
-          "destination": "variables-effect.scss",
-          "format": "scss/variables",
-          "filter": "isCategoryEffect"
+            "destination": "variables-radius.scss",
+            "format": "scss/variables",
+            "filter": "isCategoryRadius"
+        },
+        {
+          "destination": "variables-shadow.scss",
+          "format": "shadowFormat",
+          "filter": "isCategoryShadow"
+        },
+        {
+            "destination": "variables-font.scss",
+            "format": "fontFormat",
+            "filter": "isCategoryFont"
         }
       ]
     },
